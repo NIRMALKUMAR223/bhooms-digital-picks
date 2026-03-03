@@ -5,7 +5,7 @@ const ProductCard = ({ product }) => {
     <div className="bg-white rounded-3xl p-6 shadow-md hover:shadow-xl transition duration-300">
 
       <img
-        src={`https://nirmalkumar223.github.io/bhooms-digital-picks/img/${product.image}`}
+        src={`https://nirmalkumar223.github.io/bhooms-digital-picks/${product.image}`}
         alt={product.name}
         className="rounded-2xl mb-4 w-full h-60 object-cover"
       />
