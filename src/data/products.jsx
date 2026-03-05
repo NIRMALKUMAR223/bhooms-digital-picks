@@ -22,6 +22,12 @@ const products = [
     name: "Axor Apex Marvel Venom Edition!",
     image: "/img/product4.jpeg",
     link: "https://amzn.to/4u66EHn"
+  },
+  {
+    id: 5,
+    name: "Stunning 3-Panel Porsche 911 GT3 RS Wall Art Set",
+    image: "/img/product5.png",
+    link: "https://amzn.to/4u8tvlo"
   }
 ];
 
