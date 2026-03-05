@@ -36,7 +36,22 @@ const products = [
     image: "/img/product2.jpeg",
     link: "https://amzn.to/4rMzDOP",
     rating: 4.1
+  },
+  {
+    id: 6,
+    name: "Golden Hexagonal Mirror Stickers",
+    image: "/img/product6.png",
+    link: "https://amzn.to/4l7EXJU",
+    rating: 3.7
+  },
+  {
+    id: 7,
+    name: "Samsung Galaxy S26 Ultra 5G",
+    image: "/img/product7.jpg",
+    link: "https://amzn.to/4spBrNu",
+    rating: 4.8
   }
+  
 ];
 
 export default products;
