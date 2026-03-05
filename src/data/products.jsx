@@ -16,6 +16,12 @@ const products = [
     name: "Nike Revolution 7 | Midnight Platinum & Red",
     image: "/img/product3.jpeg",
     link: "https://amzn.to/40D6v0n"
+  },
+  {
+    id: 4,
+    name: "Axor Apex Marvel Venom Edition!",
+    image: "/img/product4.jpeg",
+    link: "https://amzn.to/4u66EHn"
   }
 ];
 
