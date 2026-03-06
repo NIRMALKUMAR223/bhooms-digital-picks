@@ -8,8 +8,8 @@ const Navbar = ({ products, search, setSearch }) => {
 
   const suggestions = searchValue
     ? products.filter((product) =>
-        product.name.toLowerCase().startsWith(searchValue)
-      )
+      product.name.toLowerCase().startsWith(searchValue)
+    )
     : [];
 
   return (
@@ -38,7 +38,7 @@ const Navbar = ({ products, search, setSearch }) => {
                        transition-all duration-300"
           />
           <span className="absolute left-3 top-2.5 text-gray-400 transition-all duration-300">
-            🔍
+            <svg class="w-4 h-4 me-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z" /></svg>
           </span>
 
           {/* Desktop Suggestions with Animation */}
@@ -46,8 +46,8 @@ const Navbar = ({ products, search, setSearch }) => {
             className={`absolute w-full bg-white shadow-lg rounded-xl mt-2 max-h-60 overflow-y-auto z-50
             transform transition-all duration-300 ease-in-out
             ${showSuggestions && suggestions.length > 0
-              ? "opacity-100 translate-y-0"
-              : "opacity-0 -translate-y-2 pointer-events-none"}`}
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 -translate-y-2 pointer-events-none"}`}
           >
             {suggestions.map((product) => (
               <div
@@ -68,8 +68,8 @@ const Navbar = ({ products, search, setSearch }) => {
             className={`absolute w-full bg-white shadow-lg rounded-xl mt-2 p-3 text-gray-500
             transform transition-all duration-300 ease-in-out
             ${showSuggestions && search && suggestions.length === 0
-              ? "opacity-100 translate-y-0"
-              : "opacity-0 -translate-y-2 pointer-events-none"}`}
+                ? "opacity-100 translate-y-0"
+                : "opacity-0 -translate-y-2 pointer-events-none"}`}
           >
             No Item Found ❌
           </div>
@@ -124,8 +124,8 @@ const Navbar = ({ products, search, setSearch }) => {
           className={`absolute left-4 right-4 bg-white shadow-lg rounded-xl mt-2 max-h-60 overflow-y-auto z-50
           transform transition-all duration-300 ease-in-out
           ${showSuggestions && search && suggestions.length > 0
-            ? "opacity-100 translate-y-0"
-            : "opacity-0 -translate-y-2 pointer-events-none"}`}
+              ? "opacity-100 translate-y-0"
+              : "opacity-0 -translate-y-2 pointer-events-none"}`}
         >
           {suggestions.map((product) => (
             <div
