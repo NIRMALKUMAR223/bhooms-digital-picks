@@ -46,10 +46,31 @@ const products = [
   },
   {
     id: 7,
-    name: "Samsung Galaxy S26 Ultra 5G",
+    name: "Samsung Galaxy S26 Ultra 5G mobile phone",
     image: "/img/product7.jpg",
     link: "https://amzn.to/4spBrNu",
     rating: 4.8
+  },
+  {
+    id: 8,
+    name: "OnePlus 15 mobile phone",
+    image: "/img/product8.jpg",
+    link: "https://amzn.to/4rSbeXX",
+    rating: 4.3
+  },
+  {
+    id: 9,
+    name: "OnePlus 13s mobile phone",
+    image: "/img/product9.jpg",
+    link: "https://amzn.to/4d5EE0j",
+    rating: 4.1
+  },
+  {
+    id: 10,
+    name: "Nikon D7500 DSLR Camera",
+    image: "/img/product10.jpg",
+    link: "https://amzn.to/4d5EE0j",
+    rating: 4.5
   }
   
 ];
