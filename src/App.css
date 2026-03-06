@@ -22,3 +22,29 @@
   opacity: 1;
   transform: translateY(0) scale(1);
 }
+
+
+.icon-wrapper {
+  /* This controls the size of the icon */
+  width: 10%;           /* Scalable width */
+  min-width: 24px;      /* Prevents it from getting too small on mobile */
+  max-width: 80px;      /* Prevents it from getting too huge on desktop */
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1 / 1;  /* Keeps it a perfect square */
+}
+
+svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease; /* Adds a nice feel */
+}
+
+/* Hover effect for a "Pro" feel */
+.icon-wrapper:hover svg {
+  transform: scale(1.1);
+  color: #ff0000; /* Optional: Change color on hover */
+}
